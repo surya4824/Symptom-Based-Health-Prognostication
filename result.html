@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("https://media.istockphoto.com/id/1358218505/photo/stethoscope-notepad-and-pen-on-a-pink-background-with-copy-space-medical-flat-lay-color-of.jpg?s=612x612&w=0&k=20&c=YW41bF3N5gh696jsG1vUXaFzIME9z9qqDzoQHMo77WY=")top/cover no-repeat; 
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Set text color to white */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #A6ABF8; /* Add a semi-transparent background color to improve readability */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center; /* Center the content horizontally */
+        }
+
+        h1 {
+            color: #ffd700; /* Set header color to gold */
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #00ff00; /* Set list item color to green */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Prediction Result</h1>
+        <p>The predicted disease is: {{ disease }}</p>
+        
+        <h2>Recommended Tablets:</h2>
+        <p>{{ tablets }}</p>
+        
+    </div>
+</body>
+</html>
+
